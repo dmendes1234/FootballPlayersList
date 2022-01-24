@@ -46,6 +46,7 @@
     border-radius: 5px;
     border: 1px solid #ccc;
     border-bottom-width: 2px;
+    padding-left: 12px;
 }
 
 .modal-form input:hover {

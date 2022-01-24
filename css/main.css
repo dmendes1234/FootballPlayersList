@@ -9,5 +9,11 @@ html, body {
     padding: 20px;
 }
 
+@media(max-width: 640px) {
+    html, body {
+        padding: 5px;
+    }
+}
+
 
 
