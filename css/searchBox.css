@@ -11,3 +11,9 @@
     width: 200px;
     margin-bottom: 20px;
 }
+
+@media(max-width:640px) {
+    #searchBox {
+        width: 100%;
+    }
+}

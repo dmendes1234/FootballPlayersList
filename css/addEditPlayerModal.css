@@ -142,3 +142,8 @@
     }
 }
 
+@media(max-width: 470px) {
+    .modal-content {
+        width: 95%;
+    }
+}

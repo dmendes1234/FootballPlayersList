@@ -14,3 +14,9 @@
     cursor: pointer;
     opacity: 1;
 }
+
+@media(max-width:640px) {
+    .addBtn {
+        width: 100%;
+    }
+}
