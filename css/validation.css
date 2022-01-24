@@ -1,0 +1,10 @@
+/*      validation       */
+
+.hide {
+    display: none;
+}
+
+.validation-error {
+    font-size: 12px;
+    color: red;
+}

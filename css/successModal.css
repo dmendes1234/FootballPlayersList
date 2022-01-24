@@ -1,0 +1,97 @@
+.success-modal-btns button {
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: 16px;
+}
+  
+.success-modal-btns button:hover {
+    opacity:1;
+}
+  
+.success-modal-btns .backBtn, .success-modal-btns .continueBtn {
+    float: left;
+    width: 50%;
+}
+  
+.success-modal-btns .backBtn {
+    background-color: rgb(77, 75, 75);
+    color: white;
+}
+  
+.success-modal-btns .continueBtn {
+    background-color: #009879;
+    opacity: 0.9;
+    color: white;
+}
+  
+.success-modal-container {
+    padding: 16px;
+    text-align: center;
+}
+  
+  /* The Modal (background) */
+.success-modal {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 50px;
+}
+  
+.success-modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; 
+    border: 1px solid #888;
+    width: 45%; 
+}
+
+/* Clear floats */
+.success-modal-btns.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media(max-width: 670px) {
+    .success-modal-btns .continueBtn, .success-modal-btns .backBtn {
+        width: 100%;
+    }
+
+    .success-modal-content p{
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 1030px) {
+    .success-modal-content {
+        width: 50%;
+    }
+}
+
+@media(max-width: 760px) {
+    .success-modal-content {
+        width: 55%;
+    }
+}
+
+@media(max-width: 660px) {
+    .success-modal-content {
+        width: 65%;
+    }
+}
+
+@media(max-width: 570px) {
+    .success-modal-content {
+        width: 85%;
+    }
+}

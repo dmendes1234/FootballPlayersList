@@ -1,0 +1,13 @@
+/*  searchBox */
+
+.dataTables_filter input, .dataTables_filter label {
+    visibility: hidden;
+}
+
+#searchBox {
+    border: none;
+    padding: 12px 24px;
+    background-color: #83838336;
+    width: 200px;
+    margin-bottom: 20px;
+}

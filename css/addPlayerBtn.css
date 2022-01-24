@@ -1,0 +1,16 @@
+/*  add player button  */
+
+.addBtn {
+    border: none;
+    padding: 12px 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    background-color: #009879;
+    color: white;
+    opacity: 0.9;
+}
+
+.addBtn:hover {
+    cursor: pointer;
+    opacity: 1;
+}

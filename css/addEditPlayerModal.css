@@ -1,0 +1,144 @@
+/*      modal       */
+
+
+/*  modal background  */
+.modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 5%;
+}
+
+/* modal box */
+.modal-content {
+    font-family: 'Poppins',sans-serif;
+    background-color: white;
+    margin: auto;
+    width: 45%;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+
+/*      modal form       */
+
+#modal-headline {
+    margin-top: 0;
+    padding: 0;
+    position: relative;
+}
+
+.modal-form .input-box label {
+    font-weight: 500;
+}
+
+.modal-form input {
+    display: block;
+    width: 100%;
+    height: 45px;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+}
+
+.modal-form input:hover {
+    border-color: rgb(117, 116, 116);
+}
+
+.modal-form input:focus {
+    border-color: #009879;
+}
+
+.input-box-group, .form-btn-group {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+.input-box-group {
+    margin-bottom: 20px;
+}
+
+.input-box {
+    width: 100%;
+}
+
+.saveBtn, .quitBtn {
+   cursor: pointer;
+   border: none;
+   border-radius: 5px;
+   font-weight: bold;
+   font-size: 18px;
+   height: 40px;
+   width: 50%;
+   opacity: 0.9;
+}
+
+.saveBtn {
+    background-color: #009879;
+    color: white;
+}
+
+.saveBtn:hover {
+    opacity: 1;
+}
+
+.quitBtn {
+    background-color: rgb(77, 75, 75);
+    color: white;
+}
+
+.quitBtn:hover {
+    opacity: 1;
+}
+
+/*      responsive     */
+
+@media(max-width: 1104px) {
+    .input-box-group.first, .input-box-group.last {
+        flex-direction: column;
+    }
+
+    .input-box-group.middle.inner {
+        display: block;
+    }
+
+    .input-box-group {
+        margin: 0;
+    }
+
+    .input-box {
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width: 1030px) {
+    .modal-content {
+        width: 50%;
+    }
+}
+
+@media(max-width: 760px) {
+    .modal-content {
+        width: 55%;
+    }
+}
+
+@media(max-width: 660px) {
+    .modal-content {
+        width: 65%;
+    }
+}
+
+@media(max-width: 570px) {
+    .modal-content {
+        width: 85%;
+    }
+}
+
